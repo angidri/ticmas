@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sarabun:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300;1,500&display=swap');
+
+body {
+  background-color: #272726;
+font-family:'Roboto', sans-serif;
+overflow-x: hidden;
+width: 100%;
+}
+
+#inicio {
+margin-left: none;
+margin-right: none;
+height: 100%;
+padding-right: 20px;
+padding-left: 20px;
+background: #581845;
+background: rgb(226,236,54);
+background: linear-gradient(151deg, rgba(226,236,54,1) 0%, rgba(250,14,94,1) 100%);
+}
+
+p {
+  color: #FFFFFF;
+  font-family:'Sarabun', italic;
+
+}
+.menu {
+display: inline-block;
+font-family:'Roboto', serif;
+;
+list-style: none;
+padding: 0;
+width: 90%;
+max-width: 100%;
+margin: auto;
+
+}
+.menu li a{
+text-decoration: none;
+color: white;
+padding: 20px;
+display: block;
+margin-bottom: auto;
+margin-left: auto;
+}
+
+.menu h5 {
+font-size: 16px;
+margin: auto ;
+padding:5px ;
+color: #FFC300;
+margin-bottom: 20px;
+display: none;
+}
+
+.menu li {
+display: inline-block;
+text-align: center;
+}
+.menu li a:hover{
+background: #581845;
+
+}
+
+.menu li:hover h5 {
+display: block;
+}
+
+ h1 {
+  font-family: 'Gajraj One';
+  color: #900C3F;
+  font-size: 56px;
+
+ }
+
+ #contacto p {
+   color:#FFFFFF;
+   font-family: 'Sarabun'
+ }
