@@ -6,12 +6,14 @@ body {
 font-family:'Roboto', sans-serif;
 overflow-x: hidden;
 width: 100%;
+height: auto;
 }
 
 #inicio {
 margin-left: none;
 margin-right: none;
-height: 100%;
+width: 100%;
+height: auto;
 padding-right: 20px;
 padding-left: 20px;
 background: #581845;
@@ -19,20 +21,25 @@ background: rgb(226,236,54);
 background: linear-gradient(151deg, rgba(226,236,54,1) 0%, rgba(250,14,94,1) 100%);
 }
 
-p {
-  color: #FFFFFF;
-  font-family:'Sarabun', italic;
+#inicio {
+display: flex;
+align-items: center;
 
+}
+#inicio p {
+  color: #FFFFFF;
+  font-family:'Sarabun';
+font-size: 26px;
+font-weight: 300;
+font-style: italic;
 }
 .menu {
 display: inline-block;
 font-family:'Roboto', serif;
-;
 list-style: none;
 padding: 0;
 width: 90%;
 max-width: 100%;
-margin: auto;
 
 }
 .menu li a{
@@ -46,6 +53,7 @@ margin-left: auto;
 
 .menu h5 {
 font-size: 16px;
+font-weight: 400;
 margin: auto ;
 padding:5px ;
 color: #FFC300;
@@ -69,11 +77,64 @@ display: block;
  h1 {
   font-family: 'Gajraj One';
   color: #900C3F;
-  font-size: 56px;
+  font-size: 45px;
 
  }
 
  #contacto p {
    color:#FFFFFF;
-   font-family: 'Sarabun'
+   font-family: 'Sarabun';
+   font-weight: 300;
  }
+
+ #mitrabajo {
+   width: auto;
+   height: 100%;
+ }
+
+#marca {
+  font-family: 'Sarabun'; 0,300;
+  color: #581845;
+}
+
+.pie-pagina {
+  width: auto;
+  height: 100%;
+background: #001C40;
+padding-top: 20px;
+}
+
+ #social ul {
+   padding: 50px;
+   width: 100%;
+   height: auto;
+   text-decoration: none;
+   list-style: none;
+   justify-content: start;
+
+}
+ #social li {
+padding: 10px;
+display: inline-block;
+
+ }
+
+ #boton {
+   background-color: #FF5733;
+   color:#FFFFFF;
+   font-family: 'Sarabun';
+   font-weight: 300;
+   width: 250px;
+   text-align: center;
+   border: none;
+   text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  opacity: 0.6;
+
+ }
+#footer p {
+font-family: 'Roboto';
+font-size: 16px;
+color: #FFFFFF;
+}

@@ -5,27 +5,16 @@
     <title>mipagina</title>
  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
  <link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" href="<link rel="stylesheet" href="https://kit.fontawesome.com/4ab8ced376.css" crossorigin="anonymous">"/>
+<script src="https://kit.fontawesome.com/4ab8ced376.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 
 </head>
   <body>
-<!--   <div class="container">
-   <div class="row">
-      <div class="col-md-4">
-        <h3>inicio</h3>
-      </div>
-      <div class="col-md-4">
-          <h3>quien soy</h3>
-      </div>
-      <div class="col-md-4">
-        <h3>mi trabajo</h3>
-      </div>
-    </div> -->
-
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid mx-3">
-        <a class="navbar-brand" href="#">
-        <span class="fs-5" style="color:#217DA7" >Ticmas proyecto final</a> </span>
+        <a class="navbar-brand" href="#" id="marca" >
+        <span class="fs-5" >Ticmas proyecto final</a> </span>
       </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -43,20 +32,23 @@
 
 <section id="inicio" >
 
-<div class="container-fluid text-center py-5">
+<div class="container text-left py-5">
   <div class="row align-items-center justify-content-md-center min-vh-100" >
 
-     <div class="col-sm-4 py-3" >
+  <div class="col-md-4 py-3 justify-content-center">
 <h1>Hola!</h1>
+<p>Bienvenidx </p>
+<p>mi nombre es Angelina Dri</p>
+<button type="button" name="button" onclick="myFunction() "id="boton" >que hago</button>
+<p id="click"></p>
+<!--<h2> Soy artista visual</h2>
+<h2>y estudiante de front-end</h2> -->
 
-         <p> Bienvenidx </p>
-        <p>mi nombre es Angelina Dri</p>
-         <p>y soy artista visual</p>
 
-      </div>
+ </div>
 
      <div class="col-sm-6 my-4 text-center">
-      <img class= "img-fluid rounded-circle mw-100" src="img/cv.png" alt="foto perfil de la persona" width="300 px" height="300 px" >
+      <img class= "img-fluid rounded-circle mw-100" src="img/PERFIL.jpg" alt="foto perfil de la persona" width="300 px" height="300 px" >
      </div>
    </div>
  </div>
@@ -64,15 +56,15 @@
 </section>
 
 
-<!-- -->
+<!-- incio principal -->
 
 <section id="quiensoy">
-  <div class="text-center py-5" >
+  <div class="container text-center py-5" >
     <div class="row align-items-center justify-content-between" >
 
-<ul class="menu d-flex justify-content-md-center">
+<ul class="menu d-flex justify-content-md-center mx-3">
 
-  <li>  <a href="#nombre">nombre</a>
+  <li> <a href="#nombre">nombre</a>
   <h5>angelina</h5> </li>
   <li> <a href="#nacionalidad">nacionalidad</a>
   <h5>Argentina</h5> </li>
@@ -95,7 +87,7 @@
 <!-- CARRUSEL -->
 
 <section id="mitrabajo">
-<div class="container-fluid text-center pt-5">
+<div class="container text-center pt-5">
 
   <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
@@ -132,7 +124,7 @@
 <!-- FORMULARIO -->
 
 <section id="contacto">
-  <div class="container text-left" >
+  <div class="container" >
     <div class="row align-items-center">
   <div class="col">
     <div class="mb-3">
@@ -146,9 +138,33 @@
   </div>
 </section>
 
+<footer class= pie-pagina>
+
+<div class="footer-content">
+<div class="row text-center">
+
+  <div class="col-md-6 my-3 justify-content "id="footer"" ">
+    <h5>contactame</h5>
+    <p>Lorem ipsum dolor sit amet, </p>
+    <p>consectetur adipisicing elit,r</p>
+  </div>
+<div class="col-md-4 xs-6 mx-3" id="social" >
+  <ul>
+      <li id="ig"><a href="#"><i class="fa fa-instagram" style="font-size:21px;"></i></a></li>
+      <li id="gmail"><a href="#"><i class="fa fa-google-plus" style="font-size:21px;"></i></a></li>
+  </ul>
+
+</div>
+<div class="col-2">
+
+</div>
+
+  </div>
+</div>
+</footer>
+
 
 <script src="js/bootstrap.min.js"></script>
-<script src="https://kit.fontawesome.com/4ab8ced376.js" crossorigin="anonymous"></script>
 
   </body>
 </html>
